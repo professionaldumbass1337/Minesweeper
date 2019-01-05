@@ -33,7 +33,7 @@ pygame.mixer.music.play(-1)
 width = 16
 height = 16
 margin = 5
-text = pygame.font.SysFont('Comic Sans MS', 10, True)
+text = pygame.font.SysFont('Helvetica', 10, True)
 lev = "Game on"
 
 num_bombs = 40
