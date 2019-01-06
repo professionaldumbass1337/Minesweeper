@@ -94,11 +94,11 @@ def draw():
     for m in medium:
         pygame.draw.rect(screen,
                          white,
-                        [width*3 + (a-width*3*3)/2.55,20,
+                        [(a-150)/2+45,20,
                         width*3+10, height])
 
         textsurface2 = text.render(m.content, False, (0,0,0))
-        screen.blit(textsurface2,(width*3+(a-width*9)/2.55+3,20))
+        screen.blit(textsurface2,((a-150)/2+47,20))
     for d in difficult:
         pygame.draw.rect(screen,
                          white,
